@@ -4,7 +4,7 @@ import { useState } from "react";
 import Appoinments from "../../../pages/Appoinments";
 import Availablity from "../../../pages/Availablity";
 import Calendar from "../../../pages/Calendar";
-import ClientSms from "../../../pages/clientSms";
+import ClientSms from "../../../pages/ClientSms";
 import Invoices from "../../../pages/Invoices";
 import MyClients from "../../../pages/myClients";
 import Products from "../../../pages/Products";
