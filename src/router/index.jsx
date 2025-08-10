@@ -73,7 +73,6 @@ import EarningsChart from "../pages/EarningsChart";
 import Invoices from "../pages/Invoices";
 import Reports from "../pages/Reports";
 import Revenue from "../pages/Revenue";
-import ClientSms from "../pages/clientSms";
 import MyClients from "../pages/myClients";
 
 export const router = createBrowserRouter([
@@ -109,10 +108,10 @@ export const router = createBrowserRouter([
         path: "/calendar",
         element: <Calendar />,
       },
-      {
-        path: "/clientSms",
-        element: <ClientSms />,
-      },
+      // {
+      //   path: "/clientSms",
+      //   element: <ClientSms />,
+      // },
       {
         path: "/myClients",
         element: <MyClients />,
