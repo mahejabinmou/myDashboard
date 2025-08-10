@@ -6,7 +6,7 @@ import Availablity from "../../../pages/Availablity";
 import Calendar from "../../../pages/Calendar";
 import ClientSms from "../../../pages/ClientSms";
 import Invoices from "../../../pages/Invoices";
-import MyClients from "../../../pages/myClients";
+import MyClients from "../../../pages/MyClients";
 import Products from "../../../pages/Products";
 import Reports from "../../../pages/Reports";
 import Revenue from "../../../pages/Revenue";
