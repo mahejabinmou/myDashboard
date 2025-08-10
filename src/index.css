@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #8c5ff7;
+  --bg-primary: #f9f9fa;
+  --bg-secondary: #ffffff;
+  --form-head: #13101c;
+  font-family: "Arimo", sans-serif;
+}
+
+[data-theme="dark"] {
+  --primary: #8c5ff7;
+  --bg-primary: #070706;
+  --bg-secondary: #1e1d2b;
+  --form-head: #f6f6f6;
+  font-family: "Arimo", sans-serif;
+}
+
+@layer components {
+  .head {
+    @apply text-[24px] leading-[1.4] font-bold;
+  }
+
+  .para {
+    @apply text-[16px] leading-[1.5] text-[#A5A5A5] font-medium;
+  }
+
+  .formInputText {
+    @apply leading-[1.5] text-[16px] font-medium py-[12px] pl-[16px] rounded-[12px] text-[#F6F6F6] placeholder-[#F6F6F6] border border-[#373737] bg-[#070706] focus:outline-none focus:ring-1 focus:ring-[#8C5FF780];
+  }
+
+  .formLabelText {
+    @apply leading-[1.5] text-[16px] font-medium text-[#A5A5A5] mb-[8px];
+  }
+  .dashboardButton {
+    @apply leading-[1.5] text-[16px] font-medium text-[#A5A5A5];
+  }
+
+  .autofill-fix:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #070706 inset !important;
+    -webkit-text-fill-color: #f6f6f6 !important;
+  }
+}
