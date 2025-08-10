@@ -3,7 +3,7 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import Select from "react-select";
 
-import _layoutRegistration from "../layouts/RegistrationLayOut";
+import _layoutRegistration from "../layouts/Register";
 const countryOptions = [
   // Your country options
 ];
