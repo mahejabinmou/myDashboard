@@ -71,9 +71,9 @@ import Calendar from "../pages/Calendar";
 import CalendarAppoinmentModal from "../pages/CalendarAppoinmentModal/CalendarAppoinmentModal";
 import EarningsChart from "../pages/EarningsChart";
 import Invoices from "../pages/Invoices";
+import MyClients from "../pages/MyClients";
 import Reports from "../pages/Reports";
 import Revenue from "../pages/Revenue";
-import MyClients from "../pages/myClients";
 
 export const router = createBrowserRouter([
   {
