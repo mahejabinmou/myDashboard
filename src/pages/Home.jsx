@@ -166,6 +166,7 @@ import { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import Select from "react-select";
+import RegistrationLayOut from "../layouts/RegistrationLayOut";
 const countryOptions = [
   // my country options
   { value: "+1", label: "🇺🇸 United States (+1)" },
@@ -192,7 +193,7 @@ const Home = ({ onNext }) => {
     onNext();
   };
   return (
-    <RegistrationLayout
+    <RegistrationLayOut
       step={1}
       onNext={() => form.submit()}
       title="Try Mangomint for free"
@@ -327,7 +328,7 @@ const Home = ({ onNext }) => {
           </Form.Item>
         </div>
       </Form>
-    </RegistrationLayout>
+    </RegistrationLayOut>
   );
 };
 
