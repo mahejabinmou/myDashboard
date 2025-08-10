@@ -2,8 +2,8 @@ import { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 import Select from "react-select";
-import RegistrationLayOut from "../layouts/RegistrationLayOut";
 
+import _layoutRegistration from "../layouts/RegistrationLayOut";
 const countryOptions = [
   // Your country options
 ];
@@ -14,7 +14,7 @@ const Home = ({ onNext }) => {
   const [selectedCode, setSelectedCode] = useState(countryOptions[0]);
 
   return (
-    <RegistrationLayOut
+    <_layoutRegistration
       step={1}
       onNext={onNext}
       title="Try Mangomint for free"
@@ -155,7 +155,7 @@ const Home = ({ onNext }) => {
           </div>
         </div>
       </form>
-    </RegistrationLayOut>
+    </_layoutRegistration>
   );
 };
 

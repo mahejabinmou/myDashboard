@@ -1,7 +1,7 @@
 import CustomButton from "../components/ui/CustomButton/CustomButton";
 import ThemeSwitcher from "../utilities/toggleTheme";
 
-const RegistrationLayOut = ({
+const _layoutRegistration = ({
   children,
   step,
   onNext,
@@ -55,4 +55,4 @@ const RegistrationLayOut = ({
   );
 };
 
-export default RegistrationLayOut;
+export default _layoutRegistration;
