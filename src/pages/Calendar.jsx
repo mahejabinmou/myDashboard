@@ -310,7 +310,7 @@ export default function Calendar() {
   const [filterEnabled, setFilterEnabled] = useState(false);
 
   const [selectedEvent, setSelectedEvent] = useState(null); // modal state
-  const [selectedCalender, setSelectedCalender] = useState(null); // modal state
+  // const [selectedCalender, setSelectedCalender] = useState(null); // modal state
 
   const cardRefs = useRef({});
   const draggablesRef = useRef([]);

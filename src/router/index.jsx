@@ -68,7 +68,8 @@ import AddProduct from "../components/AddProduct/AddProduct";
 import InvoicePage from "../components/InvoicePage";
 import Availablity from "../pages/Availablity";
 import Calendar from "../pages/Calendar";
-import CalendarAppoinmentModal from "../pages/CalendarAppoinmentModal/CalendarAppoinmentModal";
+
+import CalendarAppoinmentModal from "../pages/CalendarAppoinmentModal";
 import EarningsChart from "../pages/EarningsChart";
 import Invoices from "../pages/Invoices";
 import MyClients from "../pages/MyClients";
